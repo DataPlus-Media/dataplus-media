@@ -5,27 +5,15 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Rubbish Brothers",
-    link: "https://www.rubbishbrothers.com",
+    imageUrl: "/images/counseling.webp",
+    title: "Vital Connexions",
+    link: "https://www.vitalconnexions.org",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Atlas Massage",
-    link: "https://www.atlasmassage.ca",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Canadian Security Solutions",
-    link: "https://www.canadiansecuritysolutions.com",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Flight 9",
-    link: "https://www.flight9.art",
+    imageUrl: "/images/gospelai.webp",
+    title: "Gospel AI",
+    link: "https://gospelai.vercel.app",
   },
 
 

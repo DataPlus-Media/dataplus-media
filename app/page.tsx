@@ -152,42 +152,6 @@ export default function Home() {
           </div>
 
           {/* Trusted by section */}
-          <div className="md:flex items-center justify-between gap-y-4 my-10 gap-x-28 mx-auto">
-            <div className="md:w-2/5">
-              <h1 className="text-2xl font-medium text-gray-600 w-4/5">
-                Trusted by fast moving brands worldwide
-              </h1>
-
-              <div className="flex my-6 gap-x-5 w-full">
-                <div>
-                  <h1 className="text-blue-500 text-3xl md:text-5xl">
-                    <NumberTicker value={1000} /> +
-                    <p className="text-gray-500 text-sm md:text-md">Happy Clients</p>
-                  </h1>
-                </div>
-
-                <div className="w-px bg-gray-300 self-stretch"></div>
-
-                <div className="flex-1 min-w-0">
-                  <h1 className="text-blue-500 text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
-                    <NumberTicker value={5} /> +
-                    <p className="text-gray-500 text-sm md:text-md">Projects Completed</p>
-                  </h1>
-                </div>
-              </div>
-            </div>
-
-            <section className="overflow-hidden mt-10 md:w-4/5">
-              <InfiniteMovingLogos
-                speed="slow"
-                direction="left"
-                items={[
-                  { logo: "/logo/logo.webp", name: "Logo 1" },
-                  { logo: "/logo/logo.webp", name: "Logo 2" },
-                ]}
-              />
-            </section>
-          </div>
         </div>
       </main>
 
@@ -269,38 +233,6 @@ export default function Home() {
 
         </main>
       </Element>
-
-      <section>
-        <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
-          <Image
-            src={"/logo/logo.webp"}
-            width={10000}
-            height={10000}
-            className=" md:w-1/3 rounded-md"
-            alt="image"
-          />
-          <div className="flex flex-col gap-y-5 md:w-1/2">
-            <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;ve been working with DataPlusMedia for over 2 years and
-              they&apos;ve been amazing to work with. They&apos;ve helped us
-              grow our business and we couldn&apos;t be happier with the
-              results. &quot;
-            </h1>
-            <div className="flex items-center gap-x-1">
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-            </div>
-
-            <span className="text-xl font-medium">
-              Jordan, Brisson <br />
-              CEO, Atlas Massage
-            </span>
-          </div>
-        </main>
-      </section>
 
       <Element name="guarentees">
         <ShootingStarsAndStarsBackgroundDemo />

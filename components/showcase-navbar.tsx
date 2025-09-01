@@ -48,7 +48,7 @@ xl:w-4/5
           hover:text-blue-500
           "
           >
-            Showcase
+            Projects
           </Link>
              <Link href="/" className="hover:text-blue-500">
             Services
