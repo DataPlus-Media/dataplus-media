@@ -82,7 +82,7 @@ export default function Home() {
         <div className="absolute right-1/2 translate-x-1/2 transform">
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
             <Link href={"/showcase"} className="hover:text-blue-500">
-              Showcase
+              Projects
             </Link>
             <ScrollLink to="services" smooth={true} className="hover:text-blue-500">
               Services
@@ -135,13 +135,13 @@ export default function Home() {
             <Link href={"/showcase"} className="bg-white py-3 px-10 md:px-16 md:text-xl border-4 border-black
               rounded-[6px] hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)]
               dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]">
-              Showcase
+              Projects
             </Link>
           </div>
 
           {/* Features */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
-            {["Design", "Development", "Marketing", "Strategy"].map((label, i) => (
+            {["Design", "Development", "Marketing", "Strategy"].map((label) => (
               <BoxReveal key={label} boxColor={"#3b82f6"} duration={0.5}>
                 <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                   <PiCheckBold className="text-xl text-blue-500" />

@@ -1,7 +1,7 @@
 'use client'
 import { cn } from "../../lib/utils";
 import AnimatedShinyText from "../magicui/animated-shiny-text";
-import { FcGoogle } from "react-icons/fc";
+
 
 export function AnimatedShinyTextDemo() {
   return (
